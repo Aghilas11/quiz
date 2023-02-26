@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.algerie {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.algerie::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../img/algeire.jpg) center/cover;
+    z-index: -1;
+    -webkit-filter: blur(8px);
+}
+
+.algerie h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.algerie button {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto 50px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgb(42, 36, 36);
+    box-shadow: 4px -3px 12px 0px rgb(113, 22, 22);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.algerie button:hover {
+    cursor: pointer;
+    background-color: rgba(233, 225, 225, 0.386);
+    letter-spacing: 15px;
+}
+
+.espagne {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.espagne::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../img/espagne.jpg) center/cover;
+    z-index: -1;
+    -webkit-filter: blur(8px);
+}
+
+.espagne h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.espagne button {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto 50px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgb(42, 36, 36);
+    box-shadow: 4px -3px 12px 0px rgb(113, 22, 22);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.espagne button:hover {
+    cursor: pointer;
+    background-color: rgba(233, 225, 225, 0.386);
+    letter-spacing: 15px;
+}
+
+.allemagne {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.allemagne::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../img/allemagne.webp) center/cover;
+    z-index: -1;
+    -webkit-filter: blur(8px);
+}
+
+.allemagne h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.allemagne button {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto 50px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgb(42, 36, 36);
+    box-shadow: 4px -3px 12px 0px rgb(113, 22, 22);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.allemagne button:hover {
+    cursor: pointer;
+    background-color: rgba(233, 225, 225, 0.386);
+    letter-spacing: 15px;
+}
+
+.canada {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.canada::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../img/canada.jpg) center/cover;
+    z-index: -1;
+    -webkit-filter: blur(8px);
+}
+
+.canada h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.canada button {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto 50px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgb(42, 36, 36);
+    box-shadow: 4px -3px 12px 0px rgb(113, 22, 22);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.canada button:hover {
+    cursor: pointer;
+    background-color: rgba(233, 225, 225, 0.386);
+    letter-spacing: 15px;
+}
+
+.ethiopie {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    transform: translateX(50%);
+    color: white;
+}
+
+.ethiopie::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../img/ethiopie.jpg) center/cover;
+    z-index: -1;
+    -webkit-filter: blur(8px);
+}
+
+.ethiopie h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.ethiopie button {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto 50px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgb(42, 36, 36);
+    box-shadow: 4px -3px 12px 0px rgb(113, 22, 22);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.ethiopie button:hover {
+    cursor: pointer;
+    background-color: rgba(233, 225, 225, 0.386);
+    letter-spacing: 15px;
+}
